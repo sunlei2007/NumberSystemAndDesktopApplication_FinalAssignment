@@ -28,22 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
-            button9 = new Button();
-            button10 = new Button();
-            button11 = new Button();
-            button12 = new Button();
-            button13 = new Button();
-            button14 = new Button();
-            button15 = new Button();
-            button16 = new Button();
+            buttonNum9 = new Button();
+            buttonNum8 = new Button();
+            buttonNum7 = new Button();
+            buttonNum4 = new Button();
+            buttonNum5 = new Button();
+            buttonNum6 = new Button();
+            buttonNum1 = new Button();
+            buttonNum2 = new Button();
+            buttonNum3 = new Button();
+            Equal = new Button();
+            buttonDecimal = new Button();
+            buttonNum0 = new Button();
+            Add = new Button();
+            Sub = new Button();
+            Mul = new Button();
+            Divide = new Button();
             result = new Button();
             operationLabel = new Label();
             tabControl1 = new TabControl();
@@ -53,191 +53,191 @@
             tabControl1.SuspendLayout();
             SuspendLayout();
             // 
-            // button1
+            // buttonNum9
             // 
-            button1.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(250, 166);
-            button1.Name = "button1";
-            button1.Size = new Size(48, 48);
-            button1.TabIndex = 0;
-            button1.Text = "9";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += Number_Click;
+            buttonNum9.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonNum9.Location = new Point(250, 166);
+            buttonNum9.Name = "buttonNum9";
+            buttonNum9.Size = new Size(48, 48);
+            buttonNum9.TabIndex = 0;
+            buttonNum9.Text = "9";
+            buttonNum9.UseVisualStyleBackColor = true;
+            buttonNum9.Click += Number_Click;
             // 
-            // button2
+            // buttonNum8
             // 
-            button2.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button2.Location = new Point(304, 166);
-            button2.Name = "button2";
-            button2.Size = new Size(48, 48);
-            button2.TabIndex = 1;
-            button2.Text = "8";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += Number_Click;
+            buttonNum8.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonNum8.Location = new Point(304, 166);
+            buttonNum8.Name = "buttonNum8";
+            buttonNum8.Size = new Size(48, 48);
+            buttonNum8.TabIndex = 1;
+            buttonNum8.Text = "8";
+            buttonNum8.UseVisualStyleBackColor = true;
+            buttonNum8.Click += Number_Click;
             // 
-            // button3
+            // buttonNum7
             // 
-            button3.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button3.Location = new Point(358, 166);
-            button3.Name = "button3";
-            button3.Size = new Size(48, 48);
-            button3.TabIndex = 2;
-            button3.Text = "7";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += Number_Click;
+            buttonNum7.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonNum7.Location = new Point(358, 166);
+            buttonNum7.Name = "buttonNum7";
+            buttonNum7.Size = new Size(48, 48);
+            buttonNum7.TabIndex = 2;
+            buttonNum7.Text = "7";
+            buttonNum7.UseVisualStyleBackColor = true;
+            buttonNum7.Click += Number_Click;
             // 
-            // button4
+            // buttonNum4
             // 
-            button4.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button4.Location = new Point(358, 220);
-            button4.Name = "button4";
-            button4.Size = new Size(48, 48);
-            button4.TabIndex = 5;
-            button4.Text = "4";
-            button4.UseVisualStyleBackColor = true;
-            button4.Click += Number_Click;
+            buttonNum4.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonNum4.Location = new Point(358, 220);
+            buttonNum4.Name = "buttonNum4";
+            buttonNum4.Size = new Size(48, 48);
+            buttonNum4.TabIndex = 5;
+            buttonNum4.Text = "4";
+            buttonNum4.UseVisualStyleBackColor = true;
+            buttonNum4.Click += Number_Click;
             // 
-            // button5
+            // buttonNum5
             // 
-            button5.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button5.Location = new Point(304, 220);
-            button5.Name = "button5";
-            button5.Size = new Size(48, 48);
-            button5.TabIndex = 4;
-            button5.Text = "5";
-            button5.UseVisualStyleBackColor = true;
-            button5.Click += Number_Click;
+            buttonNum5.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonNum5.Location = new Point(304, 220);
+            buttonNum5.Name = "buttonNum5";
+            buttonNum5.Size = new Size(48, 48);
+            buttonNum5.TabIndex = 4;
+            buttonNum5.Text = "5";
+            buttonNum5.UseVisualStyleBackColor = true;
+            buttonNum5.Click += Number_Click;
             // 
-            // button6
+            // buttonNum6
             // 
-            button6.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button6.Location = new Point(250, 220);
-            button6.Name = "button6";
-            button6.Size = new Size(48, 48);
-            button6.TabIndex = 3;
-            button6.Text = "6";
-            button6.UseVisualStyleBackColor = true;
-            button6.Click += Number_Click;
+            buttonNum6.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonNum6.Location = new Point(250, 220);
+            buttonNum6.Name = "buttonNum6";
+            buttonNum6.Size = new Size(48, 48);
+            buttonNum6.TabIndex = 3;
+            buttonNum6.Text = "6";
+            buttonNum6.UseVisualStyleBackColor = true;
+            buttonNum6.Click += Number_Click;
             // 
-            // button7
+            // buttonNum1
             // 
-            button7.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button7.Location = new Point(358, 274);
-            button7.Name = "button7";
-            button7.Size = new Size(48, 48);
-            button7.TabIndex = 8;
-            button7.Text = "1";
-            button7.UseVisualStyleBackColor = true;
-            button7.Click += Number_Click;
+            buttonNum1.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonNum1.Location = new Point(358, 274);
+            buttonNum1.Name = "buttonNum1";
+            buttonNum1.Size = new Size(48, 48);
+            buttonNum1.TabIndex = 8;
+            buttonNum1.Text = "1";
+            buttonNum1.UseVisualStyleBackColor = true;
+            buttonNum1.Click += Number_Click;
             // 
-            // button8
+            // buttonNum2
             // 
-            button8.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button8.Location = new Point(304, 274);
-            button8.Name = "button8";
-            button8.Size = new Size(48, 48);
-            button8.TabIndex = 7;
-            button8.Text = "2";
-            button8.UseVisualStyleBackColor = true;
-            button8.Click += Number_Click;
+            buttonNum2.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonNum2.Location = new Point(304, 274);
+            buttonNum2.Name = "buttonNum2";
+            buttonNum2.Size = new Size(48, 48);
+            buttonNum2.TabIndex = 7;
+            buttonNum2.Text = "2";
+            buttonNum2.UseVisualStyleBackColor = true;
+            buttonNum2.Click += Number_Click;
             // 
-            // button9
+            // buttonNum3
             // 
-            button9.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button9.Location = new Point(250, 274);
-            button9.Name = "button9";
-            button9.Size = new Size(48, 48);
-            button9.TabIndex = 6;
-            button9.Text = "3";
-            button9.UseVisualStyleBackColor = true;
-            button9.Click += Number_Click;
+            buttonNum3.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonNum3.Location = new Point(250, 274);
+            buttonNum3.Name = "buttonNum3";
+            buttonNum3.Size = new Size(48, 48);
+            buttonNum3.TabIndex = 6;
+            buttonNum3.Text = "3";
+            buttonNum3.UseVisualStyleBackColor = true;
+            buttonNum3.Click += Number_Click;
             // 
-            // button10
+            // Equal
             // 
-            button10.AccessibleDescription = "Equal";
-            button10.AccessibleName = "Equal";
-            button10.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button10.Location = new Point(358, 328);
-            button10.Name = "button10";
-            button10.Size = new Size(48, 48);
-            button10.TabIndex = 11;
-            button10.Text = "=";
-            button10.UseVisualStyleBackColor = true;
-            button10.Click += Equal_Click;
+            Equal.AccessibleDescription = "Equal";
+            Equal.AccessibleName = "Equal";
+            Equal.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            Equal.Location = new Point(358, 328);
+            Equal.Name = "Equal";
+            Equal.Size = new Size(48, 48);
+            Equal.TabIndex = 11;
+            Equal.Text = "=";
+            Equal.UseVisualStyleBackColor = true;
+            Equal.Click += Equal_Click;
             // 
-            // button11
+            // buttonDecimal
             // 
-            button11.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button11.Location = new Point(304, 328);
-            button11.Name = "button11";
-            button11.Size = new Size(48, 48);
-            button11.TabIndex = 10;
-            button11.Text = ".";
-            button11.UseVisualStyleBackColor = true;
-            button11.Click += Decimal_Click;
+            buttonDecimal.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonDecimal.Location = new Point(304, 328);
+            buttonDecimal.Name = "buttonDecimal";
+            buttonDecimal.Size = new Size(48, 48);
+            buttonDecimal.TabIndex = 10;
+            buttonDecimal.Text = ".";
+            buttonDecimal.UseVisualStyleBackColor = true;
+            buttonDecimal.Click += Decimal_Click;
             // 
-            // button12
+            // buttonNum0
             // 
-            button12.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button12.Location = new Point(250, 328);
-            button12.Name = "button12";
-            button12.Size = new Size(48, 48);
-            button12.TabIndex = 9;
-            button12.Text = "0";
-            button12.UseVisualStyleBackColor = true;
-            button12.Click += Number_Click;
+            buttonNum0.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonNum0.Location = new Point(250, 328);
+            buttonNum0.Name = "buttonNum0";
+            buttonNum0.Size = new Size(48, 48);
+            buttonNum0.TabIndex = 9;
+            buttonNum0.Text = "0";
+            buttonNum0.UseVisualStyleBackColor = true;
+            buttonNum0.Click += Number_Click;
             // 
-            // button13
+            // Add
             // 
-            button13.AccessibleDescription = "Add";
-            button13.AccessibleName = "Add";
-            button13.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button13.Location = new Point(412, 166);
-            button13.Name = "button13";
-            button13.Size = new Size(48, 48);
-            button13.TabIndex = 12;
-            button13.Text = "+";
-            button13.UseVisualStyleBackColor = true;
-            button13.Click += Operation_Click;
+            Add.AccessibleDescription = "Add";
+            Add.AccessibleName = "Add";
+            Add.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            Add.Location = new Point(412, 166);
+            Add.Name = "Add";
+            Add.Size = new Size(48, 48);
+            Add.TabIndex = 12;
+            Add.Text = "+";
+            Add.UseVisualStyleBackColor = true;
+            Add.Click += Operation_Click;
             // 
-            // button14
+            // Sub
             // 
-            button14.AccessibleDescription = "Subtract";
-            button14.AccessibleName = "Subtract";
-            button14.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button14.Location = new Point(412, 220);
-            button14.Name = "button14";
-            button14.Size = new Size(48, 48);
-            button14.TabIndex = 13;
-            button14.Text = "-";
-            button14.UseVisualStyleBackColor = true;
-            button14.Click += Operation_Click;
+            Sub.AccessibleDescription = "Subtract";
+            Sub.AccessibleName = "Subtract";
+            Sub.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            Sub.Location = new Point(412, 220);
+            Sub.Name = "Sub";
+            Sub.Size = new Size(48, 48);
+            Sub.TabIndex = 13;
+            Sub.Text = "-";
+            Sub.UseVisualStyleBackColor = true;
+            Sub.Click += Operation_Click;
             // 
-            // button15
+            // Mul
             // 
-            button15.AccessibleDescription = "Multiply";
-            button15.AccessibleName = "Multiply";
-            button15.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button15.Location = new Point(412, 274);
-            button15.Name = "button15";
-            button15.Size = new Size(48, 48);
-            button15.TabIndex = 14;
-            button15.Text = "*";
-            button15.UseVisualStyleBackColor = true;
-            button15.Click += Operation_Click;
+            Mul.AccessibleDescription = "Multiply";
+            Mul.AccessibleName = "Multiply";
+            Mul.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            Mul.Location = new Point(412, 274);
+            Mul.Name = "Mul";
+            Mul.Size = new Size(48, 48);
+            Mul.TabIndex = 14;
+            Mul.Text = "*";
+            Mul.UseVisualStyleBackColor = true;
+            Mul.Click += Operation_Click;
             // 
-            // button16
+            // Divide
             // 
-            button16.AccessibleDescription = "Divide";
-            button16.AccessibleName = "Divide";
-            button16.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button16.Location = new Point(412, 328);
-            button16.Name = "button16";
-            button16.Size = new Size(48, 48);
-            button16.TabIndex = 15;
-            button16.Text = "/";
-            button16.UseVisualStyleBackColor = true;
-            button16.Click += Operation_Click;
+            Divide.AccessibleDescription = "Divide";
+            Divide.AccessibleName = "Divide";
+            Divide.Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            Divide.Location = new Point(412, 328);
+            Divide.Name = "Divide";
+            Divide.Size = new Size(48, 48);
+            Divide.TabIndex = 15;
+            Divide.Text = "/";
+            Divide.UseVisualStyleBackColor = true;
+            Divide.Click += Operation_Click;
             // 
             // result
             // 
@@ -311,24 +311,26 @@
             Controls.Add(operationLabel);
             Controls.Add(result);
             Controls.Add(tabControl1);
-            Controls.Add(button16);
-            Controls.Add(button15);
-            Controls.Add(button14);
-            Controls.Add(button13);
-            Controls.Add(button10);
-            Controls.Add(button11);
-            Controls.Add(button12);
-            Controls.Add(button7);
-            Controls.Add(button8);
-            Controls.Add(button9);
-            Controls.Add(button4);
-            Controls.Add(button5);
-            Controls.Add(button6);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(Divide);
+            Controls.Add(Mul);
+            Controls.Add(Sub);
+            Controls.Add(Add);
+            Controls.Add(Equal);
+            Controls.Add(buttonDecimal);
+            Controls.Add(buttonNum0);
+            Controls.Add(buttonNum1);
+            Controls.Add(buttonNum2);
+            Controls.Add(buttonNum3);
+            Controls.Add(buttonNum4);
+            Controls.Add(buttonNum5);
+            Controls.Add(buttonNum6);
+            Controls.Add(buttonNum7);
+            Controls.Add(buttonNum8);
+            Controls.Add(buttonNum9);
             Name = "CalculatorFrm";
             Text = "Calculator";
+            Load += CalculatorFrm_Load;
+            KeyDown += CalculatorFrm_KeyDown;
             tabControl1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
@@ -336,22 +338,22 @@
 
         #endregion
 
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button7;
-        private Button button8;
-        private Button button9;
-        private Button button10;
-        private Button button11;
-        private Button button12;
-        private Button button13;
-        private Button button14;
-        private Button button15;
-        private Button button16;
+        private Button buttonNum9;
+        private Button buttonNum8;
+        private Button buttonNum7;
+        private Button buttonNum4;
+        private Button buttonNum5;
+        private Button buttonNum6;
+        private Button buttonNum1;
+        private Button buttonNum2;
+        private Button buttonNum3;
+        private Button Equal;
+        private Button buttonDecimal;
+        private Button buttonNum0;
+        private Button Add;
+        private Button Sub;
+        private Button Mul;
+        private Button Divide;
         private Button result;
         private Label operationLabel;
         private TabControl tabControl1;
